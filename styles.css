@@ -7,11 +7,10 @@
     flex-direction: column;
 }
 
-.player .video {
-    flex-grow: 1;
-}
 .player .button-menu-player {
     background-color: black;
+    display: flex;
+    flex-direction: row;
 }
 .player .player-button {
     height: 15px;
@@ -19,9 +18,10 @@
     border-style: none;
     cursor: pointer;
     background-color: transparent;
-    margin: 7px 15px 12px 3px;
+    margin: 7px 20px 12px 3px;
 }
 .player .player-icon {
     color: white;
     font-size: 20px;
 }
+
