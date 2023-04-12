@@ -1,0 +1,18 @@
+.player {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.player .button-menu-player {
+    background-color: black;
+}
+.player .player-button {
+    border-style: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.player .player-icon {
+    color: white;
+}
