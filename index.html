@@ -6,18 +6,24 @@
 </head>
 <body>
   <style type="text/css">
-    button {
+    .down-buttons-wrapper {
+        background-color: black;
+    }
+    .player-button {
         border-style: none;
         cursor: pointer;
+        background-color: transparent;
     }
-    i {
-        color: white
+    .player-icon {
+        color: white;
     }
   </style>
   <div id="player" style="width: 800px; height: 600px;">
     <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    <div style="background-color: black">
-      <button><i class="fa fa-play" aria-hidden="true"></i></button>
+    <div class="down-buttons-wrapper">
+      <button class="player-button ">
+        <i class="fa fa-play player-icon" aria-hidden="true"></i>
+      </button>
     </div>
   </div>
 
