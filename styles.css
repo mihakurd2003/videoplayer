@@ -14,11 +14,14 @@
     background-color: black;
 }
 .player .player-button {
+    height: 15px;
+    width: 15px;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
+    margin: 7px 15px 12px 3px;
 }
 .player .player-icon {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
