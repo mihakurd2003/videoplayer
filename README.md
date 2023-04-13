@@ -23,3 +23,5 @@ pip install -r requirements.txt
 liverload
 ```
 - Переходите по указанному адресу в терминале
+### Ссылка на готовый сайт
+[mihakurd2003.github.io/videoplayer/](https://mihakurd2003.github.io/videoplayer/)
