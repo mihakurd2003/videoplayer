@@ -11,17 +11,15 @@
     background-color: black;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .player .player-button {
-    height: 15px;
-    width: 15px;
+    height: 35px;
+    width: 35px;
     border-style: none;
     cursor: pointer;
     background-color: transparent;
-    margin: 7px 20px 12px 3px;
-}
-.player .player-icon {
-    color: white;
     font-size: 20px;
+    color: white;
 }
 
